@@ -148,8 +148,8 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     private void drawPanel(Graphics g, int number) {
-        int panelX = getWidth() - PANEL_WIDTH; //  располагаем панель справа
-        int panelY = (getHeight() - PANEL_HEIGHT) / 2; //  располагаем панель по середине по вертикали
+        int panelX = getWidth() - PANEL_WIDTH;
+        int panelY = (getHeight() - PANEL_HEIGHT) / 2;
         g.setColor(new Color(200, 200, 200, 150));
         g.fillRect(panelX, panelY, PANEL_WIDTH, PANEL_HEIGHT);
 
